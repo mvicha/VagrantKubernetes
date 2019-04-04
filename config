@@ -1,0 +1,24 @@
+ServerAliveInterval 10
+Host kubemaster
+	HostName 192.168.122.254
+	Port 22
+	User vagrant
+	IdentityFile PATH_TO_YOUR_VagrantKubernetes_CLONED_REPO.vagrant/machines/kubemaster/virtualbox/private_key
+
+Host kubenode1
+	HostName 192.168.122.2
+	Port 22
+	User vagrant
+	IdentityFile PATH_TO_YOUR_VagrantKubernetes_CLONED_REPO.vagrant/machines/kubenode1/virtualbox/private_key
+
+Host kubenode2
+	HostName 192.168.122.3
+	Port 22
+	User vagrant
+	IdentityFile PATH_TO_YOUR_VagrantKubernetes_CLONED_REPO.vagrant/machines/kubenode2/virtualbox/private_key
+
+Host kubenode3
+	HostName 192.168.122.4
+	Port 22
+	User vagrant
+	IdentityFile PATH_TO_YOUR_VagrantKubernetes_CLONED_REPO.vagrant/machines/kubenode3/virtualbox/private_key
